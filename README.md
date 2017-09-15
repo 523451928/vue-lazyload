@@ -20,12 +20,12 @@ Vue.use(Lazyload)
 Vue.use(Lazyload)
 
 this.$lazyload({
-    elm:document.querySelector(),
-    src:"imgsrc",	  //给img标签加的属性为图片的地址 (默认imgsrc)
-    threshold:100,	//提前加载距离  （默认100px）
-    opa:0.3,		    //图片初始透明度 (默认0.3)
-    duration:1.5,	  //过渡时间
-    loadImg:''      //加载之前显示的load图片的路径
+    elm:document.querySelector(),   //需要懒加载的图片集合 (默认所有图片)
+    src:"imgsrc",	                //给img标签加的属性为图片的地址 (默认imgsrc)
+    threshold:100,	                //提前加载距离  （默认100px）
+    opa:0.3,		                //图片初始透明度 (默认0.3)
+    duration:1.5,	                //过渡时间
+    loadImg:''                      //加载之前显示的load图片的路径
 })
 ```
 
