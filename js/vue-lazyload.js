@@ -1,6 +1,5 @@
 var Lazyload = {};
 Lazyload.install = function (Vue, options) {
-    console.log(options)
     var opt = {
       elm:document.getElementsByTagName("img"),
       src:"imgsrc",	//给img标签加的属性为图片的地址
