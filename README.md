@@ -6,7 +6,9 @@
 
 
 html 部分：
+```
     <img :imgsrc="url"/>
+```
 JS 部分：
 
 ```
