@@ -29,7 +29,7 @@ this.$lazyload({
 })
 ```
 #### 效果演示
-[![demo](https://github.com/lzxb/lazy-load-img/raw/master/shot/mode-default.png)](http://lzxb.github.io/lazy-load-img/examples/mode-default.html)
+[![demo](http://mp.hks360.com:13001/cnode/static/img/erwei.png)](http://lzxb.github.io/lazy-load-img/examples/mode-default.html)
 
 ## 注意事项
 页面加载慢时获取不到dom元素 需要通过延时执行,代码如下,延时时间不限
