@@ -50,9 +50,10 @@ Lazyload.install = function (Vue, options) {
       },
       getImgTop : function(img) {
         var offsetTop = img.getBoundingClientRect().top;
-        //var offsetTop = img.offsetTop;
+        var offsetLeft = img.getBoundingClientRect().left;
         var winHeight = document.documentElement.clientHeight || document.body.clientHeight;
-        if (offsetTop < winHeight+opt.threshold) {
+        var winWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        if (offsetTop < winHeight+opt.threshold && offsetLeft < winWidth + opt.threshold) {
           return true;
         }
       },
