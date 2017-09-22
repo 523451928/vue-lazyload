@@ -29,7 +29,7 @@ this.$lazyload({
 })
 ```
 #### 效果演示
-[![demo]()](http://mp.hks360.com:13001/app)
+[![demo](https://qr.api.cli.im/qr?data=http%253A%252F%252Fmp.hks360.com%253A13001%252Findex.html&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=f758b25a6761c1ebc049f9f652a01d8c)](http://mp.hks360.com:13001/app)
 
 在PC上请使用Chrome浏览器请在设备模拟器下查看
 ## 注意事项
