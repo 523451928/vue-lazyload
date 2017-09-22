@@ -29,7 +29,7 @@ this.$lazyload({
 })
 ```
 #### 效果演示
-[![demo](http://mp.hks360.com:13001/cnode/static/img/erwei.png)](http://mp.hks360.com:13001/app)
+[![demo]()](http://mp.hks360.com:13001/app)
 
 在PC上请使用Chrome浏览器请在设备模拟器下查看
 ## 注意事项
